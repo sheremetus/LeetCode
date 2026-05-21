@@ -1,37 +1,44 @@
 package MinStack;
 
+import java.util.HashMap;
+import java.util.LinkedList;
+import java.util.Map;
 import java.util.Stack;
 
 class MinStack {
 
-
-    private Integer min;
-    private Integer secondMin;
+    Stack<Integer> minStack;
     private Stack<Integer> stack;
 
+
     public MinStack() {
+
         this.stack = new Stack();
-        this.min = Integer.MAX_VALUE;
-        this.secondMin = Integer.MAX_VALUE;
+        this.minStack = new Stack<>();
 
     }
 
     public void push(int val) {
 
+        if (minStack.isEmpty()) {
+            minStack.add(val);
+        }
+        if (val <= minStack.peek()) {
 
-        if (val < min) {
-            secondMin = min;
-            min = val;
-
+            minStack.add(val);
         }
         stack.push(val);
     }
 
     public void pop() {
-        if (stack.peek().equals(min)) {
-            min = secondMin;
+        if (stack.peek().equals(minStack.peek())) {
+            minStack.pop();
         }
+
         stack.pop();
+        if (stack.isEmpty()) {
+            minStack = new Stack<>();
+        }
     }
 
     public int top() {
@@ -39,7 +46,7 @@ class MinStack {
     }
 
     public int getMin() {
-        return min;
+        return minStack.peek();
     }
 }
 
