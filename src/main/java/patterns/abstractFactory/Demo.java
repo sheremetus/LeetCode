@@ -1,9 +1,9 @@
-package patterns;
+package patterns.abstractFactory;
 
-import patterns.app.Application;
-import patterns.factories.GUIFactory;
-import patterns.factories.MacOSFactory;
-import patterns.factories.WindowsFactory;
+import patterns.abstractFactory.app.Application;
+import patterns.abstractFactory.factories.GUIFactory;
+import patterns.abstractFactory.factories.MacOSFactory;
+import patterns.abstractFactory.factories.WindowsFactory;
 
 /**
  * Демо-класс. Здесь всё сводится воедино.

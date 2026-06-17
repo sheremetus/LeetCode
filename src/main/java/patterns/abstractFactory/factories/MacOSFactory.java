@@ -1,9 +1,9 @@
-package patterns.factories;
+package patterns.abstractFactory.factories;
 
-import patterns.entities.Button;
-import patterns.entities.Checkbox;
-import patterns.entities.MacOSButton;
-import patterns.entities.MacOSCheckbox;
+import patterns.abstractFactory.entities.Button;
+import patterns.abstractFactory.entities.Checkbox;
+import patterns.abstractFactory.entities.MacOSButton;
+import patterns.abstractFactory.entities.MacOSCheckbox;
 
 /**
  * Каждая конкретная фабрика знает и создаёт только продукты своей вариации.

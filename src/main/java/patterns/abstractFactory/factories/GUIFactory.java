@@ -1,7 +1,7 @@
-package patterns.factories;
+package patterns.abstractFactory.factories;
 
-import patterns.entities.Button;
-import patterns.entities.Checkbox;
+import patterns.abstractFactory.entities.Button;
+import patterns.abstractFactory.entities.Checkbox;
 
 /**
  * Абстрактная фабрика знает обо всех (абстрактных) типах продуктов.

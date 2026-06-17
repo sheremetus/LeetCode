@@ -1,4 +1,4 @@
-package patterns.entities;
+package patterns.abstractFactory.entities;
 
 /**
  * Чекбоксы — это второе семейство продуктов. Оно имеет те же вариации, что и

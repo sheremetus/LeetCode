@@ -1,4 +1,4 @@
-package patterns.entities;
+package patterns.abstractFactory.entities;
 
 
 /**

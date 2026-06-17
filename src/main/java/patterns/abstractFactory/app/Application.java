@@ -1,8 +1,8 @@
-package patterns.app;
+package patterns.abstractFactory.app;
 
-import patterns.entities.Button;
-import patterns.entities.Checkbox;
-import patterns.factories.GUIFactory;
+import patterns.abstractFactory.entities.Button;
+import patterns.abstractFactory.entities.Checkbox;
+import patterns.abstractFactory.factories.GUIFactory;
 
 /**
  * Код, использующий фабрику, не волнует с какой конкретно фабрикой он работает.

@@ -1,4 +1,4 @@
-package patterns.entities;
+package patterns.abstractFactory.entities;
 
 /**
  * Все семейства продуктов имеют одни и те же вариации (MacOS/Windows).

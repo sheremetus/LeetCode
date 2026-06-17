@@ -1,9 +1,9 @@
-package patterns.factories;
+package patterns.abstractFactory.factories;
 
-import patterns.entities.Button;
-import patterns.entities.Checkbox;
-import patterns.entities.WindowsButton;
-import patterns.entities.WindowsCheckbox;
+import patterns.abstractFactory.entities.Button;
+import patterns.abstractFactory.entities.Checkbox;
+import patterns.abstractFactory.entities.WindowsButton;
+import patterns.abstractFactory.entities.WindowsCheckbox;
 
 /**
  * Каждая конкретная фабрика знает и создаёт только продукты своей вариации.

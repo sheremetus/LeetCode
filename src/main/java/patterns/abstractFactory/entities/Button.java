@@ -1,4 +1,4 @@
-package patterns.entities;
+package patterns.abstractFactory.entities;
 /**
  * Паттерн предполагает, что у вас есть несколько семейств продуктов,
  * находящихся в отдельных иерархиях классов (Button/Checkbox). Продукты одного
